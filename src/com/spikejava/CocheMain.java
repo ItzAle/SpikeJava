@@ -29,5 +29,9 @@ public class CocheMain {
 
         System.out.println(cocheElectrico2);
 
+        cocheElectrico2.acelerar(50);
+
+        System.out.println(cocheElectrico2);
+
     }
 }
