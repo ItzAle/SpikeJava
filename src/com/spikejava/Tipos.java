@@ -35,5 +35,8 @@ public class Tipos {
 
         Integer numero = null;
         Long numero2 = 2L;
+
+
+
     }
 }
