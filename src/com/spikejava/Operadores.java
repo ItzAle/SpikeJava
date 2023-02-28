@@ -36,6 +36,13 @@ public class Operadores {
         System.out.println(resultadoBoolean1);
         System.out.println(resultadoBoolean2);
 
+        boolean resultadoBoolean3 = number1 > 5 && number1 <30;
+        System.out.println(resultadoBoolean3);
+
+        int edad = 19;
+        boolean carnetJoven = edad > 15 && edad <= 26;
+        System.out.println(carnetJoven);
+
 
         // asignacion
         /*
