@@ -4,9 +4,9 @@ public class CocheMain {
     public static void main(String[] args) {
 
         String coche = "alfa romeo";
-        Coche cocheObj = new Coche();
+        Coche cocheObj = new CocheHibrido();
 
-        Coche cocheObj2 = new Coche("Amarillo", "Toyota", "AE86", 1430.45, 3.2);
+        Coche cocheObj2 = new CocheElectrico("Amarillo", "Toyota", "AE86", 1430.45, 3.2, "motor");
 
         cocheObj2.acelerar(50);
 

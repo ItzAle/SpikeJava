@@ -1,6 +1,6 @@
 package com.spikejava;
 
-public class Coche {
+public abstract class Coche {
     // atributos
     String color;
     String fabricante;
