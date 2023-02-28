@@ -9,8 +9,8 @@ public class Operadores {
         // aritmeticos
 
         // + - / * %
-        int number1 = 5;
-        int number2 = 2;
+        int number1 = 10;
+        int number2 = 20;
 
         int resultado = number1 + number2;
         int resultado2 = number1 - number2;
@@ -20,16 +20,22 @@ public class Operadores {
 
         // logicos, relacion, comparacionm, booleanos
         /*
-        >
-        >=
-        <
-        <=
-        ==
+        > mayor que
+        >= mayor igual que
+        < menor que
+        <= menor igual que
+        == igual que
         !=
         && and
         || or
         !
-         */
+        */
+
+        boolean resultadoBoolean1 = number1 > number2; // false
+        boolean resultadoBoolean2 = number1 < number2; // true
+        System.out.println(resultadoBoolean1);
+        System.out.println(resultadoBoolean2);
+
 
         // asignacion
         /*
