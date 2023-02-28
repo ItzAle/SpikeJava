@@ -2,7 +2,7 @@ package com.spikejava;
 
 public class PolimorfismoMain {
     public static void main(String[] args) {
-        Coche coche1 = new Coche();
+        Coche coche1 = new CocheElectrico();
 
         CocheElectrico coche2 = new CocheElectrico();
 
