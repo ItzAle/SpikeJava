@@ -19,7 +19,6 @@ public class Arrays {
             System.out.println(item);
         }
 
-        n
 
         System.out.println(notas[0]); // 8
     }
