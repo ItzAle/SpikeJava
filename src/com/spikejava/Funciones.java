@@ -3,6 +3,7 @@ package com.spikejava;
 public class Funciones {
     public static void main(String[] args) {
 
+
         holaMundo();
 //        holaMundo("Ale");
         holaMundo("Sergi");
@@ -38,4 +39,5 @@ public class Funciones {
     private static int sum(int num1, int num2){
         return num1 + num2;
     }
+
 }
