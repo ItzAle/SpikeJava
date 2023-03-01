@@ -1,5 +1,7 @@
 package com.spikejava.poo.clases;
 
+import com.spikejava.poo.herencias.Camion;
+import com.spikejava.poo.herencias.Coche;
 import com.spikejava.poo.herencias.Motocicleta;
 
 public class Main {
@@ -28,7 +30,16 @@ public class Main {
 
         // 3. Polimorfismo
 
+        Vehiculo vehiculo;
 
+        vehiculo = new Motocicleta();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Coche();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Camion();
+        vehiculo.acelerar(50);
 
     }
 }
