@@ -10,8 +10,8 @@ public class Main {
         Vehiculo toyotaPrius = new Vehiculo();
 
         // crear un objeto utilizando el constructor con parametros
-
-        Vehiculo toyotaYaris = new Vehiculo("Toyota", "Yaris", 2.5,2019, "azul", true);
+        Motor motorGTI = new Motor("GTI", 190, 439.3, 6);
+        Vehiculo toyotaYaris = new Vehiculo("Toyota", "Yaris", 2.5,2019, "azul", true,0, motorGTI);
         System.out.println(toyotaYaris.fabricante);
         System.out.println(toyotaYaris.year);
         System.out.println(toyotaYaris.speed);

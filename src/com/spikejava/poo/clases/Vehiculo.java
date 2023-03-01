@@ -9,22 +9,24 @@ public class Vehiculo {
     String color;
     boolean sport;
     int speed;
+    Motor motor;
 
     // 2. Constructores
     public Vehiculo(){
 
     }
-    public Vehiculo(String fabricante, String modelo, Double cc, int year, String color, boolean sport){
 
+    public Vehiculo(String fabricante, String modelo, Double cc, int year, String color, boolean sport, int speed, Motor motor) {
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.cc = cc;
         this.year = year;
         this.color = color;
         this.sport = sport;
-        this.speed = 0;
-
+        this.speed = speed;
+        this.motor = motor;
     }
+
     public Vehiculo(String fabricante, String modelo){
 
         this.fabricante = fabricante;
