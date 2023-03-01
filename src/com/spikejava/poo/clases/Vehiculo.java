@@ -8,6 +8,7 @@ public class Vehiculo {
     int year;
     String color;
     boolean sport;
+    int speed;
 
     // 2. Constructores
     public Vehiculo(){
@@ -21,6 +22,7 @@ public class Vehiculo {
         this.year = year;
         this.color = color;
         this.sport = sport;
+        this.speed = 0;
 
     }
     public Vehiculo(String fabricante, String modelo){
@@ -30,8 +32,13 @@ public class Vehiculo {
 
     }
 
-
-
-
     // 3. Metodos (comportamiento)
+    public void acelerar(int quantity){
+        this.speed += quantity;
+    }
+    // geter y setter
+
+    // toString
 }
+
+
