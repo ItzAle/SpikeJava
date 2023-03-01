@@ -2,13 +2,13 @@ package com.spikejava.poo.clases;
 
 public class Vehiculo {
     // 1. Atributos
-    String fabricante;
-    String modelo;
-    Double cc;
-    int year;
-    String color;
-    boolean sport;
-    int speed;
+    protected String fabricante;
+    protected String modelo;
+    protected Double cc;
+    protected int year;
+    protected String color;
+    protected boolean sport;
+    protected int speed;
     Motor motor;
 
     // 2. Constructores

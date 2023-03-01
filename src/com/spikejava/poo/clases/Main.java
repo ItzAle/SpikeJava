@@ -1,8 +1,10 @@
 package com.spikejava.poo.clases;
 
+import com.spikejava.poo.herencias.Motocicleta;
+
 public class Main {
     public static void main(String[] args) {
-
+        // 1. Clases de objetos
         // Clase identificador = new Clase ();
 
 
@@ -17,6 +19,15 @@ public class Main {
         System.out.println(toyotaYaris.speed);
         toyotaYaris.acelerar(50);
         System.out.println(toyotaYaris.speed);
+        // 2.  Herencia
+        Motocicleta kawasakiNinja = new Motocicleta();
+        kawasakiNinja.fabricante = "Kawasaki";
+
+        System.out.println("Fin de programa");
+
+
+        // 3. Polimorfismo
+
 
 
     }
