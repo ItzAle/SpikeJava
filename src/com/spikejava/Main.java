@@ -1,21 +1,20 @@
 package com.spikejava;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         try{
         InputStream fichero = new FileInputStream("C:/Users/alexc/Desktop/test.txt");
+        BufferedInputStream ficheroBuffer = new BufferedInputStream(fichero);
 
         try {
-            int datos = fichero.read();
+            int datos = ficheroBuffer.read();
             while (datos != -1){
                 // "EOF (End Of File)"
                 System.out.print((char)datos);
-                datos = fichero.read();
+                datos = ficheroBuffer.read();
             }
 //            for(byte dato: datos){
 //                System.out.println((char)dato);
