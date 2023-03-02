@@ -57,10 +57,6 @@ public class StringMain {
 
         vector.remove(2);
 
-
-
-
-
     }
 
 
